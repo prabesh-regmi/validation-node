@@ -1,0 +1,27 @@
+{
+  "name": "node-boiler-plate",
+  "version": "1.0.0",
+  "description": "This is boiler plate to start with node express app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/prabesh-regmi/node-boilerplate.git"
+  },
+  "author": "prabesh-regmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabesh-regmi/node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/prabesh-regmi/node-boilerplate#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
